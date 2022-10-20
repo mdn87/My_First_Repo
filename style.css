@@ -1,0 +1,107 @@
+.body { 
+    background-color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.header {
+
+}
+.nav {
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    width: 100px;
+    height: 20px;
+    background-color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:  900px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 25px;
+    margin: 0 15px 15px;
+}
+.body {
+    background-color: aquamarine;
+}
+.petName {
+    text-align: center;
+    font-size: 72px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+}
+.left {
+    float: left;
+    width: 29%;
+    height: 500px;
+    
+}
+.right { 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900px;
+    font-size: 18px;
+    float: left;
+    width: 70%;
+    height: 500px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: brown;
+}
+.leftTop {
+   
+    /* background-color: coral; */
+    width: 300px;
+    height: 400px;
+}
+.leftBot {
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:  900px;
+    text-transform: uppercase;
+    font-size: 24px;
+
+}
+.footImg {
+    float: left;
+    margin: 15px;
+    border-radius: 25px;
+}
+.footInline {
+    display: inline;
+    float: left;
+    padding: 15px;
+}
+.bodyCopy {
+    padding:15px;
+}
+.botRight {
+    left: auto;
+    right: auto;
+    width: 80%;
+    height: 60%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: brown;
+    background-color: white;
+    border-radius: 25px;
+    padding: 25px;
+    text-align: center;
+}
+.botRightImg {
+    padding: 15px;
+}
+.brownFoot {
+
+    position: absolute;
+    margin-right: 0;
+    right: 0;
+}
+.hCenter {
+    margin: auto;
+}
+.h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
