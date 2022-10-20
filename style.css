@@ -10,7 +10,7 @@
     display: inline-block;
     text-align: center;
     padding: 15px;
-    width: 100px;
+    width: calc(20% - 1px);
     height: 20px;
     background-color: brown;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
