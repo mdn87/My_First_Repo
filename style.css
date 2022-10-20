@@ -69,19 +69,20 @@
     border-radius: 25px;
 }
 .footInline {
-    display: block;
+    display: inline-block;
     float: left;
     padding: 5px;
-    width: 20%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    width: 175px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: brown;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 .bodyCopy {
     padding:15px;
 }
 .botRight {
-    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
@@ -92,7 +93,7 @@
     background-color: white;
     border-radius: 25px;
     padding: 15px;
-    text-align: center;
+
 }
 .center {
     width: 690px;
@@ -107,7 +108,8 @@
     padding: 15px;
 }
 .brownFoot {
-
+    z-index: -2;
+    opacity: 0.5;
     position: absolute;
     margin-right: 0;
     right: 0;
@@ -118,4 +120,13 @@
 .h1 {
     font-size: 36px;
     font-weight: 900;
+}
+.footClass {
+    width: 20%;
+    height: 75px;
+    display: inline-block;
+}
+.footImgClass {
+    width: 99%;
+
 }
